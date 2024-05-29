@@ -11,6 +11,8 @@ export default function App() {
   const configureGoogleSignIn = () => {
     GoogleSignin.configure({
       scopes: ["https://www.googleapis.com/auth/drive.readonly"],
+      iosClientId:
+        "727706917839-1q7sg0esrb5rh76eq9t3u0fr4i1aidr5.apps.googleusercontent.com",
     });
   };
 
